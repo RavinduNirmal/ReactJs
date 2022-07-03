@@ -5,6 +5,7 @@ import Greet from './component/greet';
 import Welcome from './component/Welcome';
 import Hello from './component/hello';
 import Message from './component/Message';
+import Count from './component/count';
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
             <Welcome name="nimal" heroname="wonder"/>
             <Welcome name="kasun" heroname="superman"/>  */}
            
-           <Message/>
+           {/* <Message/> */}
+
+           <Count/>
             
          </div>  
    
