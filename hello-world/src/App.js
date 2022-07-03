@@ -11,7 +11,21 @@ function App() {
         <div className="App">
            {/* <Greet/>
             <Welcome/> */}
-            <Hello />
+            {/* <Hello /> */}
+            <Greet name="saman" heroname="Batman">
+              <p>This is childern component</p>
+            </Greet>
+            
+            <Greet name="nimal" heroname="wonder">
+              <button>Action</button>
+            </Greet>
+            
+            <Greet name="kasun" heroname="superman"/>
+
+            <Welcome  name="saman" heroname="Batman"/>
+            <Welcome name="nimal" heroname="wonder"/>
+            <Welcome name="kasun" heroname="superman"/>
+            
          </div>  
    
   );
