@@ -4,15 +4,16 @@ import './App.css'
 import Greet from './component/greet';
 import Welcome from './component/Welcome';
 import Hello from './component/hello';
+import Message from './component/Message';
 
 function App() {
   return (
           
         <div className="App">
-           {/* <Greet/>
+           {/* {/* <Greet/>
             <Welcome/> */}
             {/* <Hello /> */}
-            <Greet name="saman" heroname="Batman">
+            {/* <Greet name="saman" heroname="Batman">
               <p>This is childern component</p>
             </Greet>
             
@@ -24,7 +25,9 @@ function App() {
 
             <Welcome  name="saman" heroname="Batman"/>
             <Welcome name="nimal" heroname="wonder"/>
-            <Welcome name="kasun" heroname="superman"/>
+            <Welcome name="kasun" heroname="superman"/>  */}
+           
+           <Message/>
             
          </div>  
    
