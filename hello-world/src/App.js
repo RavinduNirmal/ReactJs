@@ -6,6 +6,10 @@ import Welcome from './component/Welcome';
 import Hello from './component/hello';
 import Message from './component/Message';
 import Count from './component/count';
+import FunctionClick from './component/FunctionClick';
+import ClassClick from './component/classClick';
+import EventBind from './component/EventBind';
+import ParentComponent from './component/ParentComponent';
 
 function App() {
   return (
@@ -22,16 +26,21 @@ function App() {
               <button>Action</button>
             </Greet>
             
-            <Greet name="kasun" heroname="superman"/>
+            <Greet name="kasun" heroname="superman"/> */}
 
-            <Welcome  name="saman" heroname="Batman"/>
+            {/* <Welcome  name="saman" heroname="Batman"/>
             <Welcome name="nimal" heroname="wonder"/>
-            <Welcome name="kasun" heroname="superman"/>  */}
-           
-           {/* <Message/> */}
+            <Welcome name="kasun" heroname="superman"/>   
+            */}
+            {/* <Message/>
 
-           <Count/>
-            
+           <Count/> */}
+
+           {/* <FunctionClick/>
+           <ClassClick/> */}
+{/* 
+           <EventBind/> */}
+            <ParentComponent/>
          </div>  
    
   );
