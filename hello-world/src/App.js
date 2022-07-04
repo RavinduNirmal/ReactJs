@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 // import React,{ Component } from 'react';
 import './App.css'
 import Greet from './component/greet';
@@ -18,6 +18,8 @@ import './component/appStyle.css';
 import Styles from './component/appstyles.module.css';
 import Form from './component/Form';
 import LifeCycleA from './component/LifeCycleA';
+import FragmentDemo from './component/FragmentDemo';
+import Table from './component/Table';
 
 function App() {
   return (
@@ -57,7 +59,9 @@ function App() {
             {/* <Stylesheet font={true}/> */}
             {/* <Inline/> */}
             {/* <Form/> */}
-            <LifeCycleA/>
+            {/* <LifeCycleA/> */}
+            {/* <FragmentDemo/> */}
+            <Table/>
          </div>  
    
   );
