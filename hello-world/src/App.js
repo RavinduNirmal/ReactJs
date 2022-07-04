@@ -16,13 +16,14 @@ import Stylesheet from './component/Stylesheet';
 import Inline from './component/Inline';
 import './component/appStyle.css';
 import Styles from './component/appstyles.module.css';
+import Form from './component/Form';
 
 function App() {
   return (
           
         <div className="App">
-          <h1 className='error'>Error</h1>
-          <h1 className={Styles.success}>Success</h1>
+          {/* <h1 className='error'>Error</h1>
+          <h1 className={Styles.success}>Success</h1> */}
            {/* {/* <Greet/>
             <Welcome/> */}
             {/* <Hello /> */}
@@ -53,7 +54,8 @@ function App() {
 
             {/* <NameList/> */}
             {/* <Stylesheet font={true}/> */}
-            <Inline/>
+            {/* <Inline/> */}
+            <Form/>
          </div>  
    
   );
