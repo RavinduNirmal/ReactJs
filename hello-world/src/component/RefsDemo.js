@@ -73,7 +73,7 @@
 
 import React, { Component } from 'react'
 
-export class RefsDemo extends Component {
+ class RefsDemo extends Component {
 
     constructor(props) {
       super(props)
