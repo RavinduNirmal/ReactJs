@@ -20,6 +20,7 @@ import Form from './component/Form';
 import LifeCycleA from './component/LifeCycleA';
 import FragmentDemo from './component/FragmentDemo';
 import Table from './component/Table';
+import ParentComp from './component/ParentComp';
 
 function App() {
   return (
@@ -61,7 +62,8 @@ function App() {
             {/* <Form/> */}
             {/* <LifeCycleA/> */}
             {/* <FragmentDemo/> */}
-            <Table/>
+            {/* <Table/> */}
+            <ParentComp/>
          </div>  
    
   );
