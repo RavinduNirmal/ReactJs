@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MemoComp from './MemoComp'
 import PureComp from './PureComp'
 import RegularComp from './RegularComp'
 
@@ -17,7 +18,7 @@ import RegularComp from './RegularComp'
     setInterval(() => {
         this.setState({
 
-            name:'Nirmal'
+            name:'Ravindu'
         })     
         },2000)
    }
@@ -30,8 +31,9 @@ import RegularComp from './RegularComp'
       <div>
         
           ParentComponent
-        <RegularComp name = {this.state.name}/>
-        <PureComp name = {this.state.name}/>
+          <MemoComp name={this.state.name}/>
+        {/* <RegularComp name = {this.state.name}/>
+        <PureComp name = {this.state.name}/> */}
 
       </div>
     )
