@@ -24,6 +24,8 @@ import ParentComp from './component/ParentComp';
 import RefsDemo from './component/RefsDemo';
 import FocusInput from './component/FocusInput';
 import FRParent from './component/FRParent';
+import Hero from './component/Hero';
+import ErrorBoundary from './component/ErrorBoundary';
 
 function App() {
   return (
@@ -69,7 +71,19 @@ function App() {
             {/* <ParentComp/> */}
             {/* <RefsDemo/> */}
             {/* <FocusInput/> */}
-            <FRParent/>
+            {/* <FRParent/> */}
+            <ErrorBoundary>
+            <Hero heroname='Batman'/>
+            </ErrorBoundary>
+            <ErrorBoundary>
+            <Hero heroname='Superman'/>
+            </ErrorBoundary>
+            <ErrorBoundary>
+            <Hero heroname='joker'/>
+            </ErrorBoundary>
+           
+            
+            
          </div>  
    
   );
