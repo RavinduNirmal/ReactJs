@@ -1,36 +1,44 @@
-import React, { Fragment } from 'react';
+// import React, { Fragment } from 'react';
 // import React,{ Component } from 'react';
-import './App.css'
-import Greet from './component/greet';
-import Welcome from './component/Welcome';
-import Hello from './component/hello';
-import Message from './component/Message';
-import Count from './component/count';
-import FunctionClick from './component/FunctionClick';
-import ClassClick from './component/classClick';
-import EventBind from './component/EventBind';
-import ParentComponent from './component/ParentComponent';
-import UserGreeting from './component/UserGreeting';
-import NameList from './component/NameList';
-import Stylesheet from './component/Stylesheet';
-import Inline from './component/Inline';
-import './component/appStyle.css';
-import Styles from './component/appstyles.module.css';
-import Form from './component/Form';
-import LifeCycleA from './component/LifeCycleA';
-import FragmentDemo from './component/FragmentDemo';
-import Table from './component/Table';
-import ParentComp from './component/ParentComp';
-import RefsDemo from './component/RefsDemo';
-import FocusInput from './component/FocusInput';
-import FRParent from './component/FRParent';
-import Hero from './component/Hero';
-import ErrorBoundary from './component/ErrorBoundary';
-import ClickCounter from './component/ClickCounter';
-import HoverCounter from './component/HoverCounter';
-import User from './component/User';
-import ComponentC from './component/ComponentC';
-import { UserProvider } from './component/userContext';
+import React from 'react'
+
+
+// import './App.css'
+// import Greet from './component/greet';
+// import Welcome from './component/Welcome';
+// import Hello from './component/hello';
+// import Message from './component/Message';
+// import Count from './component/count';
+// import FunctionClick from './component/FunctionClick';
+// import ClassClick from './component/classClick';
+// import EventBind from './component/EventBind';
+// import ParentComponent from './component/ParentComponent';
+// import UserGreeting from './component/UserGreeting';
+// import NameList from './component/NameList';
+// import Stylesheet from './component/Stylesheet';
+// import Inline from './component/Inline';
+// import './component/appStyle.css';
+// import Styles from './component/appstyles.module.css';
+// import Form from './component/Form';
+// import LifeCycleA from './component/LifeCycleA';
+// import FragmentDemo from './component/FragmentDemo';
+// import Table from './component/Table';
+// import ParentComp from './component/ParentComp';
+// import RefsDemo from './component/RefsDemo';
+// import FocusInput from './component/FocusInput';
+// import FRParent from './component/FRParent';
+// import Hero from './component/Hero';
+// import ErrorBoundary from './component/ErrorBoundary';
+// import ClickCounter from './component/ClickCounter';
+// import HoverCounter from './component/HoverCounter';
+// import User from './component/User';
+// import ComponentC from './component/ComponentC';
+// import { UserProvider } from './component/userContext';
+
+
+
+import PostList from './Component1/PostList';
+
 
 function App() {
   return (
@@ -90,10 +98,15 @@ function App() {
             <HoverCounter /> */}
             {/* <User name={(IsLoggedIn) => IsLoggedIn ? 'Ravindu' : 'Guest'}/> */}
             {/* <User render={ (IsLoggedIn) => IsLoggedIn ? 'Hello Ravindu' : 'Guest'} /> */}
-
+          {/* 
           <UserProvider value='Ravindu'>
              <ComponentC/>
-          </UserProvider>
+          </UserProvider> */}
+
+
+
+
+          <PostList/>
             
            
             
