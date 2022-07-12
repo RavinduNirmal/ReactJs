@@ -26,6 +26,11 @@ import FocusInput from './component/FocusInput';
 import FRParent from './component/FRParent';
 import Hero from './component/Hero';
 import ErrorBoundary from './component/ErrorBoundary';
+import ClickCounter from './component/ClickCounter';
+import HoverCounter from './component/HoverCounter';
+import User from './component/User';
+import ComponentC from './component/ComponentC';
+import { UserProvider } from './component/userContext';
 
 function App() {
   return (
@@ -72,7 +77,7 @@ function App() {
             {/* <RefsDemo/> */}
             {/* <FocusInput/> */}
             {/* <FRParent/> */}
-            <ErrorBoundary>
+            {/* <ErrorBoundary>
             <Hero heroname='Batman'/>
             </ErrorBoundary>
             <ErrorBoundary>
@@ -80,7 +85,16 @@ function App() {
             </ErrorBoundary>
             <ErrorBoundary>
             <Hero heroname='joker'/>
-            </ErrorBoundary>
+            </ErrorBoundary> */}
+            {/* <ClickCounter name='nimal '/>
+            <HoverCounter /> */}
+            {/* <User name={(IsLoggedIn) => IsLoggedIn ? 'Ravindu' : 'Guest'}/> */}
+            {/* <User render={ (IsLoggedIn) => IsLoggedIn ? 'Hello Ravindu' : 'Guest'} /> */}
+
+          <UserProvider value='Ravindu'>
+             <ComponentC/>
+          </UserProvider>
+            
            
             
             

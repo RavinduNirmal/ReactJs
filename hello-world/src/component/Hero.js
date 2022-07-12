@@ -15,16 +15,34 @@
 
 // export default Hero
 
+// import React from 'react'
+
+// function Hero({heroname}) {
+
+//     if(heroname==='joker'){
+//         throw new Error('Not a Hero')
+//     }
+//   return (
+//     <div>{heroname}</div>
+//   )
+// }
+
+// export default Hero;
+
+
 import React from 'react'
 
 function Hero({heroname}) {
 
-    if(heroname==='joker'){
-        throw new Error('Not a Hero')
-    }
+  if(heroname === 'joker'){
+    throw new Error('Not a hero')
+  }
+  
   return (
-    <div>{heroname}</div>
+    <div>
+      {heroname}
+    </div>
   )
 }
 
-export default Hero;
+export default Hero
