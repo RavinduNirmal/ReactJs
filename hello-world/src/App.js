@@ -1,6 +1,7 @@
 // import React, { Fragment } from 'react';
 // import React,{ Component } from 'react';
 import React from 'react'
+import PostForm from './Component1/PostForm';
 
 
 // import './App.css'
@@ -106,7 +107,8 @@ function App() {
 
 
 
-          <PostList/>
+          {/* <PostList/> */}
+          <PostForm/>
             
            
             
