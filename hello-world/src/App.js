@@ -45,6 +45,7 @@ import HookCounter3 from './Componet(Hooks)/HookCounter3';
 
 import PostList from './Component1/PostList';
 import ClassCounter from './Componet(Hooks)/ClassCounter';
+import HookCounter4 from './Componet(Hooks)/HookCounter4';
 
 
 function App() {
@@ -123,8 +124,8 @@ function App() {
           <ClassCounter/>
           <HookCounter/> */}
           {/* <HookCounter2/> */}
-          <HookCounter3/>
-            
+          {/* <HookCounter3/> */}
+          <HookCounter4/>
            
             
             
