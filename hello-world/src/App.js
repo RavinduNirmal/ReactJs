@@ -37,8 +37,14 @@ import PostForm from './Component1/PostForm';
 // import { UserProvider } from './component/userContext';
 
 
+import HookCounter from './Componet(Hooks)/HookCounter';
+import HookCounter2 from './Componet(Hooks)/HookCounter2';
+import HookCounter3 from './Componet(Hooks)/HookCounter3';
+
+
 
 import PostList from './Component1/PostList';
+import ClassCounter from './Componet(Hooks)/ClassCounter';
 
 
 function App() {
@@ -108,7 +114,16 @@ function App() {
 
 
           {/* <PostList/> */}
-          <PostForm/>
+          {/* <PostForm/> */}
+
+
+
+
+{/* 
+          <ClassCounter/>
+          <HookCounter/> */}
+          {/* <HookCounter2/> */}
+          <HookCounter3/>
             
            
             
