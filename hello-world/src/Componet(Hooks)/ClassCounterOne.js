@@ -43,7 +43,7 @@ class ClassCounterOne extends Component {
     }
   }
  componentDidMount() {
-     document.title=`You clicked ${this.state.count}}`
+     document.title=`You clicked ${this.state.count}`
  }
 
  componentDidUpdate(prevProps,prevState) {

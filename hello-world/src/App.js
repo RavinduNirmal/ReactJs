@@ -48,6 +48,8 @@ import ClassCounter from './Componet(Hooks)/ClassCounter';
 import HookCounter4 from './Componet(Hooks)/HookCounter4';
 import HookCounterOne from './Componet(Hooks)/HookCounterOne';
 import ClassCounterOne from './Componet(Hooks)/ClassCounterOne';
+import ClassCounterTwo from './Componet(Hooks)/ClassCounterTwo';
+import HookCounterTwo from './Componet(Hooks)/HookCounterTwo';
 
 
 function App() {
@@ -129,7 +131,9 @@ function App() {
           {/* <HookCounter3/> */}
           {/* <HookCounter4/> */}
           {/* <HookCounterOne/> */}
-          <ClassCounterOne/>
+          {/* <ClassCounterOne/> */}
+          {/* <ClassCounterTwo/> */}
+          <HookCounterTwo/>
            
             
             
