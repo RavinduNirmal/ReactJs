@@ -13,10 +13,17 @@ const logMousePosition = e => {
 }
 
   useEffect(() => {
+
     console.log('useEffect called')
     window.addEventListener('userEffect' , logMousePosition)
+
+    return () =>{
+
+        console.log('code unmount code')
+        window.removeEventListener('mousemove' ,logMousePosition)
+    }
     
-  }
+  },[]
   )
   return (
     <div> X -{x} Y -{y} </div>
