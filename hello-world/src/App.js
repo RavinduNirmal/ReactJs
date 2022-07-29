@@ -50,6 +50,7 @@ import HookCounterOne from './Componet(Hooks)/HookCounterOne';
 import ClassCounterOne from './Componet(Hooks)/ClassCounterOne';
 import ClassCounterTwo from './Componet(Hooks)/ClassCounterTwo';
 import HookCounterTwo from './Componet(Hooks)/HookCounterTwo';
+import HookMouse from './Componet(Hooks)/HookMouse';
 
 
 function App() {
@@ -133,8 +134,8 @@ function App() {
           {/* <HookCounterOne/> */}
           {/* <ClassCounterOne/> */}
           {/* <ClassCounterTwo/> */}
-          <HookCounterTwo/>
-           
+          {/* <HookCounterTwo/> */}
+           <HookMouse/>
             
             
          </div>  
