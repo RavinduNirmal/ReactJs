@@ -52,7 +52,8 @@ import ClassCounterTwo from './Componet(Hooks)/ClassCounterTwo';
 import HookCounterTwo from './Componet(Hooks)/HookCounterTwo';
 import HookMouse from './Componet(Hooks)/HookMouse';
 import HookConstrainer from './Componet(Hooks)/HookConstrainer';
-
+import IntervealHookCount from './Componet(Hooks)/IntervealHookCount';
+import Sample from './Componet(Hooks)/Sample';
 
 function App() {
   return (
@@ -137,8 +138,11 @@ function App() {
           {/* <ClassCounterTwo/> */}
           {/* <HookCounterTwo/> */}
            {/* <HookMouse/> */}
+            {/* <HookConstrainer/> */}
+            {/* <IntervealHookCount/> */}
+            {/* <Sample/>    
+                     */}
             <HookConstrainer/>
-            
          </div>  
    
   );
